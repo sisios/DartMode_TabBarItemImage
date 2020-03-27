@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+iOS13_DartModel.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor ios_13LigthColor:[UIColor redColor] darkColor:[UIColor blueColor]];
+    
+ 
 }
 
 

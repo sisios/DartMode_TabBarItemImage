@@ -6,8 +6,6 @@
 //  Copyright © 2020 mac. All rights reserved.
 //
 
-#import <AppKit/AppKit.h>
-
 
 #import <UIKit/UIKit.h>
 

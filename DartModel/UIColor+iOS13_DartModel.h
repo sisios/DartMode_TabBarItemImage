@@ -6,15 +6,13 @@
 //  Copyright © 2020 mac. All rights reserved.
 //
 
-#import <AppKit/AppKit.h>
-
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (iOS13_DartModel)
-
++(UIColor *)ios_13LigthColor:(UIColor *)lightColor darkColor:(UIColor *)darkColor;
 @end
 
 NS_ASSUME_NONNULL_END

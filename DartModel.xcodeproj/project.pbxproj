@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0A7B0F0A242E30B300B3381D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B0F09242E30B300B3381D /* AppDelegate.m */; };
-		0A7B0F0D242E30B300B3381D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B0F0C242E30B300B3381D /* SceneDelegate.m */; };
 		0A7B0F10242E30B300B3381D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B0F0F242E30B300B3381D /* ViewController.m */; };
 		0A7B0F13242E30B300B3381D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F11242E30B300B3381D /* Main.storyboard */; };
 		0A7B0F15242E30B800B3381D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F14242E30B800B3381D /* Assets.xcassets */; };
@@ -16,6 +15,24 @@
 		0A7B0F1B242E30B800B3381D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B0F1A242E30B800B3381D /* main.m */; };
 		0A7B0F25242E30B800B3381D /* DartModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B0F24242E30B800B3381D /* DartModelTests.m */; };
 		0A7B0F30242E30B800B3381D /* DartModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B0F2F242E30B800B3381D /* DartModelUITests.m */; };
+		0A7B0F75242E4DBE00B3381D /* tabbar_news_normal_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F65242E4DBE00B3381D /* tabbar_news_normal_1@2x.png */; };
+		0A7B0F76242E4DBE00B3381D /* tabbar_icourse_normal_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F66242E4DBE00B3381D /* tabbar_icourse_normal_1@2x.png */; };
+		0A7B0F77242E4DBE00B3381D /* tabbar_news_select_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F67242E4DBE00B3381D /* tabbar_news_select_2@2x.png */; };
+		0A7B0F78242E4DBE00B3381D /* tabbar_icourse_select_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F68242E4DBE00B3381D /* tabbar_icourse_select_2@2x.png */; };
+		0A7B0F79242E4DBE00B3381D /* tabbar_mine_select_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F69242E4DBE00B3381D /* tabbar_mine_select_1@2x.png */; };
+		0A7B0F7A242E4DBE00B3381D /* tabbar_video_select_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F6A242E4DBE00B3381D /* tabbar_video_select_1@2x.png */; };
+		0A7B0F7B242E4DBE00B3381D /* tabbar_mine_normal_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F6B242E4DBE00B3381D /* tabbar_mine_normal_2@2x.png */; };
+		0A7B0F7C242E4DBE00B3381D /* tabbar_video_normal_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F6C242E4DBE00B3381D /* tabbar_video_normal_2@2x.png */; };
+		0A7B0F7D242E4DBE00B3381D /* tabbar_news_select_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F6D242E4DBE00B3381D /* tabbar_news_select_1@2x.png */; };
+		0A7B0F7E242E4DBE00B3381D /* tabbar_icourse_select_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F6E242E4DBE00B3381D /* tabbar_icourse_select_1@2x.png */; };
+		0A7B0F7F242E4DBE00B3381D /* tabbar_news_normal_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F6F242E4DBE00B3381D /* tabbar_news_normal_2@2x.png */; };
+		0A7B0F80242E4DBE00B3381D /* tabbar_icourse_normal_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F70242E4DBE00B3381D /* tabbar_icourse_normal_2@2x.png */; };
+		0A7B0F81242E4DBE00B3381D /* tabbar_mine_normal_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F71242E4DBE00B3381D /* tabbar_mine_normal_1@2x.png */; };
+		0A7B0F82242E4DBE00B3381D /* tabbar_video_normal_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F72242E4DBE00B3381D /* tabbar_video_normal_1@2x.png */; };
+		0A7B0F83242E4DBE00B3381D /* tabbar_mine_select_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F73242E4DBE00B3381D /* tabbar_mine_select_2@2x.png */; };
+		0A7B0F84242E4DBE00B3381D /* tabbar_video_select_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B0F74242E4DBE00B3381D /* tabbar_video_select_2@2x.png */; };
+		0A7B0F89242E4DC900B3381D /* UITabBarController+iOS13_DartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B0F85242E4DC800B3381D /* UITabBarController+iOS13_DartModel.m */; };
+		0A7B0F8A242E4DC900B3381D /* UIColor+iOS13_DartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B0F86242E4DC800B3381D /* UIColor+iOS13_DartModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +56,6 @@
 		0A7B0F05242E30B300B3381D /* DartModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DartModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B0F08242E30B300B3381D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A7B0F09242E30B300B3381D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A7B0F0B242E30B300B3381D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0A7B0F0C242E30B300B3381D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		0A7B0F0E242E30B300B3381D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0A7B0F0F242E30B300B3381D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A7B0F12242E30B300B3381D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +69,26 @@
 		0A7B0F2B242E30B800B3381D /* DartModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DartModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B0F2F242E30B800B3381D /* DartModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DartModelUITests.m; sourceTree = "<group>"; };
 		0A7B0F31242E30B800B3381D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7B0F65242E4DBE00B3381D /* tabbar_news_normal_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_news_normal_1@2x.png"; sourceTree = "<group>"; };
+		0A7B0F66242E4DBE00B3381D /* tabbar_icourse_normal_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icourse_normal_1@2x.png"; sourceTree = "<group>"; };
+		0A7B0F67242E4DBE00B3381D /* tabbar_news_select_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_news_select_2@2x.png"; sourceTree = "<group>"; };
+		0A7B0F68242E4DBE00B3381D /* tabbar_icourse_select_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icourse_select_2@2x.png"; sourceTree = "<group>"; };
+		0A7B0F69242E4DBE00B3381D /* tabbar_mine_select_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_select_1@2x.png"; sourceTree = "<group>"; };
+		0A7B0F6A242E4DBE00B3381D /* tabbar_video_select_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_video_select_1@2x.png"; sourceTree = "<group>"; };
+		0A7B0F6B242E4DBE00B3381D /* tabbar_mine_normal_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_normal_2@2x.png"; sourceTree = "<group>"; };
+		0A7B0F6C242E4DBE00B3381D /* tabbar_video_normal_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_video_normal_2@2x.png"; sourceTree = "<group>"; };
+		0A7B0F6D242E4DBE00B3381D /* tabbar_news_select_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_news_select_1@2x.png"; sourceTree = "<group>"; };
+		0A7B0F6E242E4DBE00B3381D /* tabbar_icourse_select_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icourse_select_1@2x.png"; sourceTree = "<group>"; };
+		0A7B0F6F242E4DBE00B3381D /* tabbar_news_normal_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_news_normal_2@2x.png"; sourceTree = "<group>"; };
+		0A7B0F70242E4DBE00B3381D /* tabbar_icourse_normal_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icourse_normal_2@2x.png"; sourceTree = "<group>"; };
+		0A7B0F71242E4DBE00B3381D /* tabbar_mine_normal_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_normal_1@2x.png"; sourceTree = "<group>"; };
+		0A7B0F72242E4DBE00B3381D /* tabbar_video_normal_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_video_normal_1@2x.png"; sourceTree = "<group>"; };
+		0A7B0F73242E4DBE00B3381D /* tabbar_mine_select_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_select_2@2x.png"; sourceTree = "<group>"; };
+		0A7B0F74242E4DBE00B3381D /* tabbar_video_select_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_video_select_2@2x.png"; sourceTree = "<group>"; };
+		0A7B0F85242E4DC800B3381D /* UITabBarController+iOS13_DartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+iOS13_DartModel.m"; sourceTree = "<group>"; };
+		0A7B0F86242E4DC800B3381D /* UIColor+iOS13_DartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS13_DartModel.m"; sourceTree = "<group>"; };
+		0A7B0F87242E4DC900B3381D /* UITabBarController+iOS13_DartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+iOS13_DartModel.h"; sourceTree = "<group>"; };
+		0A7B0F88242E4DC900B3381D /* UIColor+iOS13_DartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS13_DartModel.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +139,15 @@
 		0A7B0F07242E30B300B3381D /* DartModel */ = {
 			isa = PBXGroup;
 			children = (
+				0A7B0F64242E4DBE00B3381D /* TabBarImg */,
 				0A7B0F08242E30B300B3381D /* AppDelegate.h */,
 				0A7B0F09242E30B300B3381D /* AppDelegate.m */,
-				0A7B0F0B242E30B300B3381D /* SceneDelegate.h */,
-				0A7B0F0C242E30B300B3381D /* SceneDelegate.m */,
 				0A7B0F0E242E30B300B3381D /* ViewController.h */,
 				0A7B0F0F242E30B300B3381D /* ViewController.m */,
+				0A7B0F88242E4DC900B3381D /* UIColor+iOS13_DartModel.h */,
+				0A7B0F86242E4DC800B3381D /* UIColor+iOS13_DartModel.m */,
+				0A7B0F87242E4DC900B3381D /* UITabBarController+iOS13_DartModel.h */,
+				0A7B0F85242E4DC800B3381D /* UITabBarController+iOS13_DartModel.m */,
 				0A7B0F11242E30B300B3381D /* Main.storyboard */,
 				0A7B0F14242E30B800B3381D /* Assets.xcassets */,
 				0A7B0F16242E30B800B3381D /* LaunchScreen.storyboard */,
@@ -135,6 +173,29 @@
 				0A7B0F31242E30B800B3381D /* Info.plist */,
 			);
 			path = DartModelUITests;
+			sourceTree = "<group>";
+		};
+		0A7B0F64242E4DBE00B3381D /* TabBarImg */ = {
+			isa = PBXGroup;
+			children = (
+				0A7B0F65242E4DBE00B3381D /* tabbar_news_normal_1@2x.png */,
+				0A7B0F66242E4DBE00B3381D /* tabbar_icourse_normal_1@2x.png */,
+				0A7B0F67242E4DBE00B3381D /* tabbar_news_select_2@2x.png */,
+				0A7B0F68242E4DBE00B3381D /* tabbar_icourse_select_2@2x.png */,
+				0A7B0F69242E4DBE00B3381D /* tabbar_mine_select_1@2x.png */,
+				0A7B0F6A242E4DBE00B3381D /* tabbar_video_select_1@2x.png */,
+				0A7B0F6B242E4DBE00B3381D /* tabbar_mine_normal_2@2x.png */,
+				0A7B0F6C242E4DBE00B3381D /* tabbar_video_normal_2@2x.png */,
+				0A7B0F6D242E4DBE00B3381D /* tabbar_news_select_1@2x.png */,
+				0A7B0F6E242E4DBE00B3381D /* tabbar_icourse_select_1@2x.png */,
+				0A7B0F6F242E4DBE00B3381D /* tabbar_news_normal_2@2x.png */,
+				0A7B0F70242E4DBE00B3381D /* tabbar_icourse_normal_2@2x.png */,
+				0A7B0F71242E4DBE00B3381D /* tabbar_mine_normal_1@2x.png */,
+				0A7B0F72242E4DBE00B3381D /* tabbar_video_normal_1@2x.png */,
+				0A7B0F73242E4DBE00B3381D /* tabbar_mine_select_2@2x.png */,
+				0A7B0F74242E4DBE00B3381D /* tabbar_video_select_2@2x.png */,
+			);
+			path = TabBarImg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +301,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7B0F7A242E4DBE00B3381D /* tabbar_video_select_1@2x.png in Resources */,
+				0A7B0F75242E4DBE00B3381D /* tabbar_news_normal_1@2x.png in Resources */,
+				0A7B0F80242E4DBE00B3381D /* tabbar_icourse_normal_2@2x.png in Resources */,
 				0A7B0F18242E30B800B3381D /* LaunchScreen.storyboard in Resources */,
+				0A7B0F83242E4DBE00B3381D /* tabbar_mine_select_2@2x.png in Resources */,
+				0A7B0F81242E4DBE00B3381D /* tabbar_mine_normal_1@2x.png in Resources */,
 				0A7B0F15242E30B800B3381D /* Assets.xcassets in Resources */,
+				0A7B0F79242E4DBE00B3381D /* tabbar_mine_select_1@2x.png in Resources */,
+				0A7B0F78242E4DBE00B3381D /* tabbar_icourse_select_2@2x.png in Resources */,
+				0A7B0F76242E4DBE00B3381D /* tabbar_icourse_normal_1@2x.png in Resources */,
+				0A7B0F84242E4DBE00B3381D /* tabbar_video_select_2@2x.png in Resources */,
+				0A7B0F7F242E4DBE00B3381D /* tabbar_news_normal_2@2x.png in Resources */,
+				0A7B0F82242E4DBE00B3381D /* tabbar_video_normal_1@2x.png in Resources */,
+				0A7B0F7D242E4DBE00B3381D /* tabbar_news_select_1@2x.png in Resources */,
+				0A7B0F77242E4DBE00B3381D /* tabbar_news_select_2@2x.png in Resources */,
 				0A7B0F13242E30B300B3381D /* Main.storyboard in Resources */,
+				0A7B0F7C242E4DBE00B3381D /* tabbar_video_normal_2@2x.png in Resources */,
+				0A7B0F7B242E4DBE00B3381D /* tabbar_mine_normal_2@2x.png in Resources */,
+				0A7B0F7E242E4DBE00B3381D /* tabbar_icourse_select_1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +346,9 @@
 			files = (
 				0A7B0F10242E30B300B3381D /* ViewController.m in Sources */,
 				0A7B0F0A242E30B300B3381D /* AppDelegate.m in Sources */,
+				0A7B0F8A242E4DC900B3381D /* UIColor+iOS13_DartModel.m in Sources */,
+				0A7B0F89242E4DC900B3381D /* UITabBarController+iOS13_DartModel.m in Sources */,
 				0A7B0F1B242E30B800B3381D /* main.m in Sources */,
-				0A7B0F0D242E30B300B3381D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

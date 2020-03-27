@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-
+@property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, strong) NSArray *titleS;
+@property (nonatomic, strong) NSArray *normalImgS;
+@property (nonatomic, strong) NSArray *selectImgS;
+@property (nonatomic, strong) NSArray *normalDartImgS;
+@property (nonatomic, strong) NSArray *selectDartImgS;
 @end
 
